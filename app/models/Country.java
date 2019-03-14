@@ -85,7 +85,7 @@ public class Country extends Model implements Comparable <Country> {
      * the matching countryId.
      */
 
-    /*
+
     public City getCapitalCity(){
 
         City c = null;
@@ -98,7 +98,7 @@ public class Country extends Model implements Comparable <Country> {
 
         return c;
     }
-    */
+
 
     /** Implementation of Comparable interface, which decides
      * the type of travel object required, by establishing whether
@@ -128,7 +128,7 @@ public class Country extends Model implements Comparable <Country> {
      * of the country for atlas list.
      */
 
-    /*
+
     @Override
     public String toString() {
 
@@ -137,13 +137,13 @@ public class Country extends Model implements Comparable <Country> {
         sb.append(countryId+") ");
         sb.append("Country: " + name + ",\t");
         sb.append("Population: " + population + ",\t");
-        sb.append("Capital: " + getCapitalCity().getName() + ".\n");
+        sb.append("Capital: " + getCapitalCity().name + ".\n");
         sb.append(name+"'s Cities: "+ "\n");
         for(City city:cityList){
             sb.append(city +"\n");
         }
         return sb.toString();
     }
-    */
+
 
 }
