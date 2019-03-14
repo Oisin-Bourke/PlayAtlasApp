@@ -1,5 +1,5 @@
 tmp/
 modules/
 lib/
-/test-result
-/logs
+test-result/
+logs/
