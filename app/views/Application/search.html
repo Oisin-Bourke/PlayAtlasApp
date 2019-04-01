@@ -1,0 +1,9 @@
+#{extends 'main.html' /}
+#{set title:country.name /}
+
+<p>${country}</p>
+
+
+#{list country.cityList, as:'city'}
+<li> ${city.id}  ${city.name} ${city.population}</li>
+#{/list}

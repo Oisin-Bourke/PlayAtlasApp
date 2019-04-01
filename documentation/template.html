@@ -2,8 +2,8 @@
 <html>
     <head>
         <title>${title}</title>
-        <link rel="stylesheet" href='files/manual.css' type="text/css" media="screen">
-        <link rel="stylesheet" href='files/wiki.css' type="text/css" media="screen">
+        <!--<link rel="stylesheet" href='files/manual.css' type="text/css" media="screen">-->
+        <!--<link rel="stylesheet" href='files/wiki.css' type="text/css" media="screen">-->
     </head>
     <body>
         <div class="wrapper">
@@ -17,9 +17,9 @@
 
                 <h2>Contents</h2>
                 <div id="toc">
-					<ui>
+					<ul>
 						#{list sections, as: 'section'}
-							<li><a href="${section.href}">${section.title}</a>
+                        <li><a href="${section.href}">${section.title}</a></li>
 						#{/list}
 					</ul>
 				</div>

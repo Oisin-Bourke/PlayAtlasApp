@@ -2,3 +2,75 @@
 #{set title:'Home' /}
 
 <h1>World Atlas and Journey Planner</h1>
+
+<div class="row">
+    <div class="col">
+        <ul class="list-group">
+            <li class="list-group-item active">Country List</li>
+            #{list items:countryList, as:'country' }
+                <li class="list-group-item">${country.name}</li>
+            #{/list}
+        </ul>
+    </div>
+
+    <div class="col">
+        <form action="@{Application.showCountry()}" method="POST">
+            <select class="form-control" id="country-selector" name="country.id">
+                #{list items:countryList, as:'country'}
+                    <option name="country" id = "country" value="${country.id}">${country.name}</option>
+                #{/list}
+            </select>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div>
+        <form action="@{Application.search()}" method="POST">
+            <input type="text" name="id" />
+            <input type="submit" name="search" value="Search" />
+        </form>
+    </div>
+
+    <div>
+        <form action="@{Application.searchCity()}" method="POST">
+            <input type="text" name="id" />
+            <input type="submit" name="search" value="Search City" />
+        </form>
+    </div>
+
+
+
+
+
+</div>
+
+<div id="content"></div>
+<button id = "button1">test</button>
+
+
+<script type="text/javascript">
+
+        $('#country-selector').on('change',function(){
+            var optionValue = 0;
+            optionValue = $(this).val();
+            alert("Selected Option Text: "+optionValue);
+
+            console.log('method called');
+
+            var listAction = #{jsAction @ShowCountryById(':longId') /}
+                    $('#result').load(
+                            listAction({longId: '41'}),
+                            function() {
+
+                                $('#country-info').css('visibility', 'visible');
+                                console.log('method called');
+                            }
+                    )
+            
+        });
+
+
+</script>
+
+
+

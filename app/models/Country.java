@@ -5,6 +5,7 @@ import java.util.List;
 import play.db.jpa.*;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.OneToMany;
 
 /**
@@ -23,7 +24,7 @@ public class Country extends Model implements Comparable <Country> {
     public int capital;
     public int population;
 
-    @OneToMany(mappedBy = "parentCountry")
+    @OneToMany(fetch = FetchType.EAGER)//======> the problem!!!!!!!!(mappedBy = "parentCountry")
     public List <City> cityList;//each country has its own cities
 
     public Country(int countryId, String name, int capital, List<City> cityList) {
@@ -36,8 +37,8 @@ public class Country extends Model implements Comparable <Country> {
         population = getPopulation();
     }
 
-    /*
-    public int getId() {
+
+    public int getCountryId() {
         return countryId;
     }
 
@@ -49,11 +50,12 @@ public class Country extends Model implements Comparable <Country> {
         return capital;
     }
 
+
     public List<City> getCityList() {
         return cityList;
     }
 
-    */
+
     public int getPopulation() {
         return population;
     }
@@ -137,7 +139,7 @@ public class Country extends Model implements Comparable <Country> {
         sb.append(countryId+") ");
         sb.append("Country: " + name + ",\t");
         sb.append("Population: " + population + ",\t");
-        sb.append("Capital: " + getCapitalCity().name + ".\n");
+        //sb.append("Capital: " + getCapitalCity().getName() + ".\n");
         sb.append(name+"'s Cities: "+ "\n");
         for(City city:cityList){
             sb.append(city +"\n");

@@ -1,0 +1,304 @@
+{
+"countries" : [{
+	  "id" : 1,
+	  "name" : "Ireland",
+	  "cities" : [{
+		  "id" : 101,
+		  "name" : "Dublin",
+		  "population" : 1000000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  },{
+		  "id" : 102,
+		  "name" : "Galway",
+		  "population" : 100000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  },{
+		  "id" : 103,
+		  "name" : "Cork",
+		  "population" : 200000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  },{
+		  "id" : 104,
+		  "name" : "Limerick",
+		  "population" : 100000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  }],
+	  "capital" : 101
+  },{
+	  "id" : 2,
+	  "name" : "United Kingdom",
+	  "cities" : [{
+		  "id" : 201,
+		  "name" : "London",
+		  "population" : 8000000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  },{
+		  "id" : 202,
+		  "name" : "Birmingham",
+		  "population" : 1000000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  },{
+		  "id" : 203,
+		  "name" : "Manchester",
+		  "population" : 1000000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  }],
+	  "capital" : 201
+  },{
+	  "id" : 3,
+	  "name" : "United States",
+	  "cities" : [{
+		  "id" : 301,
+		  "name" : "Washington DC",
+		  "population" : 1000000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  },{
+		  "id" : 302,
+		  "name" : "New York City",
+		  "population" : 12000000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  },{
+		  "id" : 303,
+		  "name" : "Los Angeles",
+		  "population" : 8000000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  }],
+	  "capital" : 301
+  },{
+	  "id" : 4,
+	  "name" : "Canada",
+	  "cities" : [{
+		  "id" : 401,
+		  "name" : "Ottawa",
+		  "population" : 1000000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  },{
+		  "id" : 402,
+		  "name" : "Toronto",
+		  "population" : 5000000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  }],
+	  "capital" : 401
+  },{
+	  "id" : 5,
+	  "name" : "Mexico",
+	  "cities" : [{
+		  "id" : 501,
+		  "name" : "Mexico City",
+		  "population" : 12000000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  },{
+		  "id" : 502,
+		  "name" : "Tijuana",
+		  "population" : 1000000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  },{
+		  "id" : 503,
+		  "name" : "Ju'e1rez",
+		  "population" : 1000000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  },{
+		  "id" : 504,
+		  "name" : "Acapulco",
+		  "population" : 1000000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  }],
+	  "capital" : 501
+  },{
+	  "id" : 6,
+	  "name" : "Italy",
+	  "cities" : [{
+		  "id" : 601,
+		  "name" : "Rome",
+		  "population" : 6000000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  },{
+		  "id" : 602,
+		  "name" : "Milan",
+		  "population" : 1000000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  },{
+		  "id" : 603,
+		  "name" : "Naples",
+		  "population" : 1000000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  }],
+	  "capital" : 601
+  },{
+	  "id" : 7,
+	  "name" : "Austria",
+	  "cities" : [{
+		  "id" : 701,
+		  "name" : "Vienna",
+		  "population" : 1000000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  },{
+		  "id" : 702,
+		  "name" : "Innsbruck",
+		  "population" : 200000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  },{
+		  "id" : 703,
+		  "name" : "Salzburg",
+		  "population" : 500000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  }],
+	  "capital" : 701
+  },{
+	  "id" : 8,
+	  "name" : "Switzerland",
+	  "cities" : [{
+		  "id" : 801,
+		  "name" : "Bern",
+		  "population" : 1000000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  },{
+		  "id" : 802,
+		  "name" : "Zurich",
+		  "population" : 1000000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  },{
+		  "id" : 803,
+		  "name" : "Lausanne",
+		  "population" : 1000000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  },{
+		  "id" : 804,
+		  "name" : "Lugano",
+		  "population" : 1000000,
+		  "interest" : {
+			  "interest1" : "Parliament Building",
+			  "interest2" : "National Museum",
+			  "interest3" : "Cathedral",
+			  "interest4" : "Tourist Information"
+		  }
+	  }],
+	  "capital" : 801
+  }
+]}
+
